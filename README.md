@@ -23,9 +23,7 @@ The application makes use of Firebase for login/authentication.
 ### Installation
 1. Clone this repo.
 2. Install dependencies. This can be done individually in the root and client folders with `npm i`
-   Alternatively, you can run `npm i` and '`npm client-install`
 4. Configure mongoURI in `server.js`
 5. Configure firebase credentials in `\client\firebase.js`
-6. Start up the server with `npm server`
-7. Start up the client with `npm client`
-   Alternatively, you can deploy both concurrently with `npm dev` 
+6. Start up the server with `nodemon server.js`
+7. Start up the client with `npm start`
