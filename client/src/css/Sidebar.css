@@ -1,0 +1,69 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.25;
+  background-color: #282b30;
+  font-family: "Tahoma";
+  color: #f3f3f3;
+  border: 3px solid #26282c;
+}
+
+.sidebar__top {
+  display: flex;
+  align-items: left;
+  justify-content: flex-start;
+  padding-left: 5px;
+  padding-top: 10px;
+  height: 40px;
+  border-bottom: 2px solid #26282c;
+}
+
+.sidebar__channels {
+  flex: 1;
+  overflow: auto;
+  border-bottom: 2px solid #26282c
+}
+
+.sidebar__channelsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 2px solid #26282c
+}
+
+.sidebar__header {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar__profile {
+  background-color: #1e2124;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.sidebar__profileInfo {
+  flex: 1;
+  padding: 10px;
+  font-family: "Tahoma";
+  font-size: 12px;
+}
+
+.sidebar__profileIcons > .MuiSvgIcon-root {
+  padding: 10px;
+}
+
+.sidebar__logout {
+  font-weight: 1000;
+}
+
+.sidebar__addChannel:hover,
+.sidebar__logout:hover,
+.sidebar__profileIcons:hover {
+  color: darkgray;
+  cursor: pointer;
+}
+

@@ -1,0 +1,28 @@
+.sidebarChannel::-webkit-scrollbar {
+  display: none;
+}
+
+.sidebarChannel {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow: scroll;
+}
+
+.sidebarChannel > h4 {
+  font-family: "Tahoma";
+  padding: 10px;
+  align-items: left;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebarChannel__hash {
+  font-size: 30px;
+  padding: 5px;
+}
+
+.sidebarChannel:hover{
+  background-color:#2c3e50;
+}
+
