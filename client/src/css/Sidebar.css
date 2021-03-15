@@ -18,6 +18,10 @@
   border-bottom: 2px solid #26282c;
 }
 
+.sidebar__top > h3{
+  padding-left: 10px;
+}
+
 .sidebar__channels {
   flex: 1;
   overflow: auto;
